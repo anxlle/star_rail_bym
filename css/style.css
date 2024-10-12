@@ -1,0 +1,149 @@
+body {
+    background-image: url('/img/Trailblaze_Mission_The_Voyage_Continues_2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gradient-box {
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #2e2d88, #1c1c26);
+    color: white;
+    margin: 5px;
+}
+
+.text-content {
+    color: white;
+    margin: 5px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icon {
+    display: flex;
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-shrink: 1;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin: 5px;
+    font-size: 1em;
+    flex-shrink: 1;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.responsive-image {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 45px;
+    margin: 1%;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 1%;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+p {
+    margin: 1%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ol {
+    margin: 1%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    margin: 1%;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .social-icon {
+        max-width: 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    ol {
+        font-size: 20px;
+    }
+
+    ul {
+        font-size: 20px;
+    }
+
+    table {
+        transform: scale(0.604);
+        transform-origin: center left;
+    }
+}
